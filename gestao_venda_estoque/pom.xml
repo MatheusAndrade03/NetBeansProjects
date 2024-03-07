@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>gestao_venda_estoque</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <exec.mainClass>com.mycompany.gestao_venda_estoque.Gestao_venda_estoque</exec.mainClass>
+    </properties>
+    <dependencies>
+        
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+     <groupId>mysql</groupId>
+     <artifactId>mysql-connector-java</artifactId>
+     <version>8.0.33</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+    <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>5.5.1</version> 
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto -->
+    <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-crypto</artifactId>
+        <version>5.5.1</version> 
+    </dependency>
+
+   
+    <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+    <dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+    </dependency>
+    
+    </dependencies>
+   
+</project>

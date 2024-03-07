@@ -1,0 +1,8 @@
+com\mycompany\gestao_venda_estoque\modelo\dominio\Produto.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\Cliente.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\Venda.class
+com\mycompany\gestao_venda_estoque\Gestao_venda_estoque.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\Perfil.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\Usuario.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\VendaItem.class
+com\mycompany\gestao_venda_estoque\modelo\dominio\Categoria.class
